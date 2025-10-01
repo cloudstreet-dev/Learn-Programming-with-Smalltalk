@@ -70,7 +70,7 @@ Creating subclasses; overriding methods; when to inherit; the class hierarchy.
 ### [Chapter 16: Understanding the Image](chapters/chapter-16-understanding-the-image.md)
 What the image file contains; saving and loading; why it's revolutionary; managing multiple images.
 
-### [Chapter 17: Changes and Sources Files](chapters/chapter-17-changes-and-sources.md)
+### [Chapter 17: Changes and Sources Files](chapters/chapter-17-changes-and-sources-files.md)
 The changes file as your safety net; the sources file; recovering lost code; understanding the three-file system.
 
 ### [Chapter 18: Version Control for Smalltalkers](chapters/chapter-18-version-control.md)
@@ -80,16 +80,16 @@ Git with Smalltalk; Monticello; Iceberg in Pharo; best practices; moving beyond 
 
 ## Part VI: Tools of the Trade
 
-### [Chapter 19: The System Browser - Your Code Navigator](chapters/chapter-19-the-system-browser.md)
+### [Chapter 19: The System Browser - Your Code Navigator](chapters/chapter-19-system-browser.md)
 Deep dive into browsing classes; finding methods; refactoring tools; keyboard shortcuts.
 
-### [Chapter 20: The Inspector and Explorer](chapters/chapter-20-the-inspector-and-explorer.md)
+### [Chapter 20: The Inspector and Explorer](chapters/chapter-20-inspector-and-explorer.md)
 Inspecting objects live; modifying running objects; exploring object graphs; debugging in the inspector.
 
-### [Chapter 21: The Debugger - Your New Best Friend](chapters/chapter-21-the-debugger.md)
+### [Chapter 21: The Debugger - Your New Best Friend](chapters/chapter-21-debugger.md)
 Why Smalltalk's debugger is magical; fixing bugs while the program runs; stepping through code; the stack.
 
-### [Chapter 22: The Finder - Discovering Code](chapters/chapter-22-the-finder.md)
+### [Chapter 22: The Finder - Discovering Code](chapters/chapter-22-finder.md)
 Finding implementors, senders; method searches; example searches; learning from existing code.
 
 ---
@@ -102,10 +102,10 @@ Duck typing in Smalltalk; designing with protocols; the power of polymorphism.
 ### [Chapter 24: Error Handling - When Things Go Wrong](chapters/chapter-24-error-handling.md)
 Exceptions in Smalltalk; on:do:; ensure:; creating custom exceptions.
 
-### [Chapter 25: Testing Your Code](chapters/chapter-25-testing-your-code.md)
+### [Chapter 25: Testing Your Code](chapters/chapter-25-testing.md)
 SUnit testing framework; writing tests first; test-driven development; running test suites.
 
-### [Chapter 26: Packages and Code Organization](chapters/chapter-26-packages-and-code-organization.md)
+### [Chapter 26: Packages and Code Organization](chapters/chapter-26-packages.md)
 Organizing code into packages; dependencies; loading code; baseline configurations.
 
 ---
@@ -150,29 +150,29 @@ Introduction to Morphic; creating simple UIs; event handling; making things visu
 ### [Chapter 36: Design Patterns in Smalltalk](chapters/chapter-36-design-patterns.md)
 Classic patterns that originated in Smalltalk; MVC; Observer; Strategy; when to use them.
 
-### [Chapter 37: Performance and Optimization](chapters/chapter-37-performance-and-optimization.md)
+### [Chapter 37: Performance and Optimization](chapters/chapter-37-performance.md)
 Profiling code; common performance pitfalls; when to optimize; benchmarking.
 
-### [Chapter 38: The Smalltalk Community](chapters/chapter-38-the-smalltalk-community.md)
+### [Chapter 38: The Smalltalk Community](chapters/chapter-38-community.md)
 Where to get help; Discord, Slack, mailing lists; contributing to open source; conferences.
 
 ### [Chapter 39: Beyond Smalltalk - Taking Your Skills Further](chapters/chapter-39-beyond-smalltalk.md)
 How Smalltalk concepts transfer to other languages; what to learn next; career possibilities.
 
-### [Chapter 40: Your Smalltalk Journey](chapters/chapter-40-your-smalltalk-journey.md)
+### [Chapter 40: Your Smalltalk Journey](chapters/chapter-40-your-journey.md)
 Recap; resources for continued learning; parting wisdom; the joy of live programming.
 
 ---
 
 ## Appendices
 
-### [Appendix A: Installation Guide Details](appendices/appendix-a-installation-guide.md)
+### [Appendix A: Installation Guide Details](appendices/appendix-a-installation.md)
 Platform-specific installation instructions; troubleshooting common issues.
 
-### [Appendix B: Keyboard Shortcuts Reference](appendices/appendix-b-keyboard-shortcuts.md)
+### [Appendix B: Keyboard Shortcuts Reference](appendices/appendix-b-shortcuts.md)
 Essential shortcuts for Pharo, Squeak, and Glamorous Toolkit.
 
-### [Appendix C: Useful Code Snippets](appendices/appendix-c-code-snippets.md)
+### [Appendix C: Useful Code Snippets](appendices/appendix-c-snippets.md)
 Common patterns and idioms for quick reference.
 
 ### [Appendix D: Glossary](appendices/appendix-d-glossary.md)
