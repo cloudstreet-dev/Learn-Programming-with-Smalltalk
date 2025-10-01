@@ -22,28 +22,10 @@ kramdown:
   syntax_highlighter_opts:
     default_lang: smalltalk
 
-# Plugin settings
+# Plugins (automatically included with github-pages gem)
 plugins:
-  - jekyll-relative-links
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
-  - jekyll-titles-from-headings
   - jekyll-seo-tag
-
-# Enable relative links
-relative_links:
-  enabled: true
-  collections: false
-
-# Optional front matter
-optional_front_matter:
-  remove_originals: true
-
-# Titles from headings
-titles_from_headings:
-  enabled: true
-  strip_title: false
-  collections: false
+  - jekyll
 
 # Navigation structure
 navigation:
@@ -70,30 +52,10 @@ exclude:
 include:
   - _config.yml
 
-# Collections (optional, for future organization)
-collections:
-  chapters:
-    output: true
-    permalink: /:collection/:name
-  appendices:
-    output: true
-    permalink: /:collection/:name
-
 # Defaults
 defaults:
   - scope:
       path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: "chapters"
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: "appendices"
-      type: "pages"
     values:
       layout: "default"
 
