@@ -60,6 +60,7 @@ defaults:
       layout: "default"
 
 # GitHub Pages specific
+repository: cloudstreet-dev/Learn-Programming-with-Smalltalk
 github:
   repository_url: "https://github.com/cloudstreet-dev/Learn-Programming-with-Smalltalk"
 
