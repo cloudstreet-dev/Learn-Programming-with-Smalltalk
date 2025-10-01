@@ -1,0 +1,271 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom styles for Learn Programming with Smalltalk */
+
+/* Better code blocks for Smalltalk */
+pre, code {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  border-radius: 4px;
+}
+
+code {
+  background-color: #f6f8fa;
+  padding: 0.2em 0.4em;
+  font-size: 90%;
+  color: #e83e8c;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+}
+
+pre {
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  padding: 16px;
+  overflow-x: auto;
+  line-height: 1.45;
+}
+
+/* Chapter navigation */
+.chapter-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  padding: 1rem;
+  background: #f6f8fa;
+  border-radius: 6px;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.chapter-nav a {
+  padding: 0.5rem 1rem;
+  background: #0366d6;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.chapter-nav a:hover {
+  background: #0256c7;
+}
+
+/* Better headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+h1 {
+  border-bottom: 2px solid #e1e4e8;
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  border-bottom: 1px solid #e1e4e8;
+  padding-bottom: 0.3em;
+}
+
+/* Better lists */
+ul, ol {
+  line-height: 1.8;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #0366d6;
+  padding-left: 1rem;
+  margin-left: 0;
+  color: #666;
+  font-style: italic;
+  background: #f6f8fa;
+  padding: 1rem;
+  border-radius: 0 6px 6px 0;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+th, td {
+  border: 1px solid #e1e4e8;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background: #f6f8fa;
+  font-weight: 600;
+}
+
+tr:hover {
+  background: #f6f8fa;
+}
+
+/* Links */
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Main content area */
+.main-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Alert boxes */
+.alert {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+  border-left: 4px solid;
+}
+
+.alert-info {
+  background: #d1ecf1;
+  border-color: #17a2b8;
+  color: #0c5460;
+}
+
+.alert-warning {
+  background: #fff3cd;
+  border-color: #ffc107;
+  color: #856404;
+}
+
+.alert-success {
+  background: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+}
+
+.alert-danger {
+  background: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .main-content {
+    padding: 1rem;
+  }
+
+  .chapter-nav {
+    flex-direction: column;
+  }
+
+  .chapter-nav a {
+    display: block;
+    text-align: center;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  pre {
+    font-size: 0.85rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  .chapter-nav {
+    display: none;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  pre, code {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+  }
+}
+
+/* Syntax highlighting improvements for Smalltalk */
+.highlight .k { color: #d73a49; } /* keywords */
+.highlight .s { color: #032f62; } /* strings */
+.highlight .m { color: #005cc5; } /* numbers */
+.highlight .c { color: #6a737d; font-style: italic; } /* comments */
+.highlight .nf { color: #6f42c1; } /* function names */
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: #0366d6;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: all 0.3s;
+}
+
+.back-to-top:hover {
+  background: #0256c7;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Chapter title styling */
+.chapter-title {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #0366d6;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 2px solid #e1e4e8;
+  text-align: center;
+  color: #6c757d;
+}
+
+/* Improve readability */
+p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* Better emphasis */
+strong {
+  font-weight: 600;
+  color: #24292e;
+}
+
+em {
+  font-style: italic;
+  color: #444;
+}
+
+/* Horizontal rules */
+hr {
+  border: 0;
+  border-top: 2px solid #e1e4e8;
+  margin: 2rem 0;
+}
